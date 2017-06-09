@@ -1,3 +1,13 @@
+function val(v){
+    var obj = document.createElement('div');
+    obj.appendChild(document.createElement('input'));
+    var i = $(obj).find('input');
+    $(i).addClass('mcolor');
+    $(i).attr('value', '#'+ v);
+    $(i).minicolors();
+    // console.log($(obj).html())
+    return obj;
+}
 Raincolor.grid.Items = function(config) {
     config = config || {};
     Ext.applyIf(config,{
@@ -18,6 +28,15 @@ Raincolor.grid.Items = function(config) {
             header: _('raincolor.color')
             ,dataIndex: 'color'
             ,width: 250
+            ,xtype:'templatecolumn', tpl:'<input class="mcolor" value="#{color}">'
+            ,handler: this.updateItem
+            ,scope: this
+            // ,renderer: val
+            // ,listeners: {
+            //     'click': {fn:function(){
+            //         console.log($(this.body.dom))
+            //     }, scope: this}
+            // }   
         }]
         ,tbar: [{
             text: _('raincolor.item_create')
@@ -27,6 +46,7 @@ Raincolor.grid.Items = function(config) {
     });
     Raincolor.grid.Items.superclass.constructor.call(this,config);
 };
+
 Ext.extend(Raincolor.grid.Items,MODx.grid.Grid,{
     windows: {}
 

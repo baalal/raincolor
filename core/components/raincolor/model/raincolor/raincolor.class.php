@@ -27,4 +27,9 @@ class Raincolor
 		$this->modx->addPackage('raincolor', $this->config['modelPath']);
 		$this->modx->lexicon->load('raincolor:default');
 	}
+
+	public function initialize()
+	{
+
+	}
 }

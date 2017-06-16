@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model package="raincolor" baseClass="xPDOObject" platform="mysql" defaultEngine="MyISAM" version="1.0">
-	<object class="rcItem" table="ms2_rcolors" extends="xPDOObject">
+	<object class="rcolor" table="ms2_rcolors" extends="xPDOObject">
 		<field key="name" dbtype="text" phptype="string" null="false" default=""/>
 		<field key="color" dbtype="varchar" precision="6" phptype="string" null="false" default=""/>
 	</object>	

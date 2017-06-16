@@ -14,7 +14,7 @@ if ($object->xpdo) {
 
             $manager = $modx->getManager();
 
-            $manager->createObjectContainer('rcItem');
+            $manager->createObjectContainer('rcolor');
 
             break;
         case xPDOTransport::ACTION_UPGRADE:

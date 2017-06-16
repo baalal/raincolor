@@ -4,7 +4,7 @@
  * @subpackage processors
  */
 class RaincolorCreateProcessor extends modObjectCreateProcessor {
-    public $classKey = 'rcItem';
+    public $classKey = 'rcolor';
     public $languageTopics = array('raincolor:default');
     // public $objectType = 'raincolor.rc';
 

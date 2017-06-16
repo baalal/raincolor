@@ -1,5 +1,5 @@
 <?php
-$xpdo_meta_map['rcItem']= array (
+$xpdo_meta_map['rcolor']= array (
   'package' => 'raincolor',
   'version' => '1.0',
   'table' => 'ms2_rcolors',

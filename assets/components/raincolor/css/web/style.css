@@ -1,0 +1,16 @@
+.raincolor,
+.raincolor-product{
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	border: 1px solid #eeeeee;
+	vertical-align: middle;
+}
+.raincolor-product{
+	cursor: pointer;
+}
+.raincolor-product.checked{
+    /*background-color: rgba(169, 143, 118, 1);*/
+    border: 2px solid #eeeeee;
+    color: #fff;
+}

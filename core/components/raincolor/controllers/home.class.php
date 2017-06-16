@@ -19,14 +19,14 @@ class RaincolorHomeManagerController extends RaincolorMainController {
 	 * @return void
 	 */
 	public function loadCustomCssJs() {
-		$this->addJavascript($this->raincolor->config['jsUrl'] . 'mgr/widgets/items.grid.js');
-		$this->addJavascript($this->raincolor->config['jsUrl'] . 'mgr/widgets/home.panel.js');
-		$this->addLastJavascript($this->raincolor->config['jsUrl'] . 'mgr/sections/home.js');
+		$this->addJavascript($this->raincolor->config['js_url'] . 'mgr/widgets/raincolor.grid.js');
+		$this->addJavascript($this->raincolor->config['js_url'] . 'mgr/widgets/home.panel.js');
+		$this->addLastJavascript($this->raincolor->config['js_url'] . 'mgr/sections/home.js');
 	}
 	/**
 	 * @return string
 	 */
 	public function getTemplateFile() {
-		return $this->raincolor->config['templatesPath'] . 'home.tpl';
+		return $this->raincolor->config['templates_path'] . 'home.tpl';
 	}
 }

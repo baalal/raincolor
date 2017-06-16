@@ -1,3 +1,3 @@
-Raincolor 1.0-alpha
+Raincolor 1.0-beta
 ====================================
-- Developers version
+- Release version

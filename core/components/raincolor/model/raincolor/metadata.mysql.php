@@ -3,6 +3,6 @@
 $xpdo_meta_map = array (
   'xPDOObject' => 
   array (
-    0 => 'rcItem',
+    0 => 'rcolor',
   ),
 );

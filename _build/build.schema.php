@@ -51,5 +51,3 @@ $totalTime= ($tend - $tstart);
 $totalTime= sprintf("%2.4f s", $totalTime);
 
 echo "\nExecution time: {$totalTime}\n";
-
-exit ();

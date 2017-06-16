@@ -19,4 +19,13 @@ $_lang['area_raincolor.default_settings'] = 'Основные';
 $_lang['setting_raincolor.assets_path'] = 'Путь к папке assets';
 $_lang['setting_raincolor.assets_url'] = 'URL assets';
 $_lang['setting_raincolor.core_path'] = 'Путь к папке core';
-?>
+
+$_lang['raincolor_colors'] = 'тест';
+
+$_lang['raincolor_prop_tpl'] = 'Чанк оформления для каждого результата';
+$_lang['raincolor_prop_optiions'] = 'Список опций для вывода, через запятую.';
+$_lang['raincolor_prop_product'] = 'Идентификатор товара. Если не указан, используется id текущего документа.';
+$_lang['raincolor_prop_includeTVs'] = 'Список ТВ параметров для выборки, через запятую. Например: "action,time" дадут плейсхолдеры [[+action]] и [[+time]].';
+$_lang['raincolor_prop_includeThumbs'] = 'Список размеров превьюшек для выборки, через запятую. Например: "small,medium" дадут плейслолдеры [[+small]] и [[+medium]]. Картинки должны быть заранее сгенерированы в галерее товара.';
+$_lang['raincolor_prop_toPlaceholder'] = 'Если не пусто, сниппет сохранит все данные в плейсхолдер с этим именем, вместо вывода на экран.';
+$_lang['raincolor_prop_showLog'] = 'Показывать дополнительную информацию о работе сниппета. Только для авторизованных в контексте "mgr".';

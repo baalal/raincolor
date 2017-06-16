@@ -2,20 +2,17 @@
 $settings = array();
 $tmp = array(
     'raincolor.core_path' => array(
-        'value' => 'd:/www/raincolor/core/components/raincolor/',
-        // 'value' => '{core_path}components/raincolor/',
+        'value' => '{core_path}components/raincolor/',
         'xtype' => 'textarea',
         'area' => 'raincolor.default_settings',
     ),
     'raincolor.assets_path' => array(
-        'value' => 'd:/www/raincolor/assets/components/raincolor/',
-        // 'value' => '{assets_path}components/raincolor/',
+        'value' => '{assets_path}components/raincolor/',
         'xtype' => 'textarea',
         'area' => 'raincolor.default_settings'
     ),
     'raincolor.assets_url' => array(
-        'value' => '/raincolor/assets/components/raincolor/',
-        // 'value' => '{assets_path}components/raincolor/',
+        'value' => '{assets_url}components/raincolor/',
         'xtype' => 'textarea',
         'area' => 'raincolor.default_settings'
     )
